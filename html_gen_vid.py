@@ -156,7 +156,7 @@ def generate_html(json_file, output_file, idx):
       <textarea id="resultOutput"></textarea>
     </div>
     <div style="display: flex; justify-content: center; margin-top: 20px;">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmhewMD3r9gd-RxRqe8Ef2Wy5okpzLVzoPXJ9SPrUL5YlLQg/viewform?usp=sf_link" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://forms.gle/2hFKaaNJ8Etjdyhk9" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
   </section>
 </div>
