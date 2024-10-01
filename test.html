@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Playback Test</title>
+</head>
+<body>
+    <h1>Video Playback Test</h1>
+    <video controls width="400">
+        <source src="./htmls/videos/visualization_eval_ours/oliver_103971_audio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="error"></div>
+
+    <script>
+        const video = document.querySelector('video');
+        const errorDiv = document.getElementById('error');
+
+        video.addEventListener('error', function(e) {
+            console.error('Error: ', e);
+            errorDiv.textContent = `Error loading video: ${video.error.message}`;
+        });
+    </script>
+</body>
+</html>
