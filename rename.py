@@ -17,11 +17,12 @@ for root, dirs, files in os.walk(base_dir):
 
 # Step 2: Define paths for video management
 paths = [
-    'videos/visualization_ours_train',
+    'videos/visualization_train_ours',
     'videos/visualization_train_s2g',
-    'videos/visualization_angie_train',
-    'videos/visulization_eval_ours',
-    'videos/visulization_eval_angie'
+    'videos/visualization_train_angie',
+    'videos/visualization_eval_ours',
+    'videos/visualization_eval_s2g',
+    'videos/visualization_eval_angie'
 ]
 
 # Step 3: Process videos
@@ -45,7 +46,7 @@ for path in paths:
             print(f'Removed: {video_path}')
         
         # Rename videos in 'visualization_ours_train'
-        if path == 'videos/visualization_ours_train':
+        if path == 'videos/visualization_train_ours' or path == 'videos/visualization_eval_ours':
             # Change name format
             new_video = '_'.join(video.split('_')[:2]) + '_audio.mp4'
             new_video_path = os.path.join(path, new_video)
@@ -53,7 +54,7 @@ for path in paths:
             print(f'Renamed: {video_path} -> {new_video_path}')
 
 # Step 2: Define paths for video management
-train_path = ['videos/visualization_ours_train', 'videos/visulization_eval_ours']
+train_path = ['videos/visualization_train_ours', 'videos/visualization_eval_ours']
 gt_paths = ['videos/sample_output_videos', 'videos/sample_output_videos2']
 
 # Step 3: Collect training video names

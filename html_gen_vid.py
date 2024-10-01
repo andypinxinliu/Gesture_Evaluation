@@ -119,14 +119,14 @@ def generate_html(json_file, output_file, idx):
               </td>
               <td style="text-align: center">
                 {group['captions'][3].replace('\n', '<br>')}<br>
-                <div class="rating" id="group_{idx + 1}_rating_3">
+                <div class="rating" id="group_{idx + 1}_rating_4">
                   <label><input type="radio" name="group_{idx + 1}_rating_4" value="1"> 1</label>
                   <label><input type="radio" name="group_{idx + 1}_rating_4" value="2"> 2</label>
                   <label><input type="radio" name="group_{idx + 1}_rating_4" value="3"> 3</label>
                   <label><input type="radio" name="group_{idx + 1}_rating_4" value="4"> 4</label>
                   <label><input type="radio" name="group_{idx + 1}_rating_4" value="5"> 5</label>
                 </div>
-                <div class="warning" id="warning_group_{idx + 1}_rating_3">Please rate this metric.</div>
+                <div class="warning" id="warning_group_{idx + 1}_rating_4">Please rate this metric.</div>
               </td>
             </tr>"""
 
@@ -172,11 +172,27 @@ def generate_html(json_file, output_file, idx):
       resultArray.push(evaluationNumber);
 
       // Get user selection for each group
+      var choices = [];
+      var sources = [];
       var ratings = [];
+      var sample_ids = [];
       var valid = true;
 
-      for (var i = 1; i <= {num_groups}; i++) {{
+      for (var i = 1; i <= 20; i++) {{
           var groupName = "group_" + i;
+          var selectedValue = document.querySelector('input[name="' + groupName + '"]:checked')?.value;
+          choices.push(selectedValue || "N/A");
+
+          // Add image path and corresponding source
+          if (selectedValue) {{
+              sources.push(document.querySelector('#' + groupName + '_source_' + selectedValue).value);
+          }} else {{
+              sources.push("N/A");
+          }}
+
+          // Get sample_id for each group
+          // var cur_sample_id = document.querySelector('#' + groupName + '_sample_id_' + selectedValue).value;
+          // sample_ids.push(document.querySelector('#' + groupName + '_sample_id_' + selectedValue).value);
 
           // Get ratings for each caption
           for (var j = 1; j <= 4; j++) {{
@@ -192,10 +208,13 @@ def generate_html(json_file, output_file, idx):
       }}
 
       if (!valid) {{
-          alert('Please rate all metrics.');
+          alert('Please rate all captions.');
           return;
       }}
 
+      // resultArray.push(sample_ids.join(","));
+      // resultArray.push(choices.join(","));
+      // resultArray.push(sources.join(","));
       resultArray.push(ratings.join(","));
 
       // Show result text and fill textarea
@@ -205,7 +224,7 @@ def generate_html(json_file, output_file, idx):
       resultOutput.style.width = '80%';  // Set the width to 80%
       resultOutput.style.height = '200px';  // Set the height to 200px
       document.getElementById('resultText').style.display = 'block';
-  }};
+      }};
 </script>
 </body>
 </html>"""

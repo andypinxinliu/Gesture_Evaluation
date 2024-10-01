@@ -4,9 +4,9 @@ import random
 
 paths_group1 = ['videos/mm-diffusion']
 path_group2 = ['videos/new_sample_output_videos2', 'videos/new_sample_output_videos']
-path_group3 = ['videos/visualization_train_ours', 'videos/visulization_eval_ours']
-path_group4 = ['videos/visualization_train_s2g', 'videos/visulization_eval_s2g']
-path_group5 = ['videos/visualization_train_angie', 'videos/visulization_eval_angie']
+path_group3 = ['videos/visualization_train_ours', 'videos/visualization_eval_ours']
+path_group4 = ['videos/visualization_train_s2g', 'videos/visualization_eval_s2g']
+path_group5 = ['videos/visualization_train_angie', 'videos/visualization_eval_angie']
 
 
 # 25 videos from each group, in total 125 videos, if we recruit 20 participants, 
