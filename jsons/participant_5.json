@@ -3,8 +3,48 @@
     "instructions": "Please watch each video and rate the videos based on Four evaluation metrics,\n         1. Realness: How realistic the video looks\n         2. Diversity: How diverse does the gesture pattern presen\n         3. Naturalness: Are speech and gesture synchronized in this video\n         4. Overall: Overall quality of the video\n     Please rate each video on a scale of 1 to 5, where 1 is the lowest and 5 is the highest\n",
     "groups": [
         {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/oliver_103975_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/noah_1000040594_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/noah_1000041325.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/oliver_102713_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_22_0_0.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_28_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -13,138 +53,8 @@
             ]
         },
         {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/noah_1000040432_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/chemistry_71354.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/noah_1000036043_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/seth_6177_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_103577.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/noah_1000036043_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/oliver_103908_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/chemistry_69872_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_102713.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/seth_100250_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/chemistry_71301.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/noah_1000037489_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_101769.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/chemistry_71390_audio.mp4",
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_26_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -164,7 +74,7 @@
         },
         {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_21_0_0.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_13_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -173,8 +83,18 @@
             ]
         },
         {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_19_0_0.mp4",
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/seth_6164.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/chemistry_69763.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -184,7 +104,7 @@
         },
         {
             "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/seth_99743_audio.mp4",
+            "video": "../videos/visulization_eval_angie/oliver_103890_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -194,7 +114,7 @@
         },
         {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_25_0_0.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_1_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -203,28 +123,8 @@
             ]
         },
         {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/noah_1000040432.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_25_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/seth_100098.mp4",
+            "sample_id": "angie",
+            "video": "../videos/visualization_train_angie/oliver_103287_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -234,7 +134,117 @@
         },
         {
             "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/noah_1000040432_audio.mp4",
+            "video": "../videos/visualization_train_ours/noah_1000042573_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visulization_eval_ours/seth_100035_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/seth_100176_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/seth_100250_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/oliver_103751_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/chemistry_67733.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/noah_1000041063_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/oliver_103975.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/oliver_103577_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_20_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/chemistry_69872_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/oliver_102713_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -254,77 +264,7 @@
         },
         {
             "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/chemistry_71162.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/seth_99743_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/noah_1000041148_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/seth_100134_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/seth_99800.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/oliver_101769_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/chemistry_71390_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/oliver_103996.mp4",
+            "video": "../videos/new_sample_output_videos/oliver_103843.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -334,37 +274,7 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visualization_train_s2g/noah_1000036890_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_17_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/seth_100133_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/oliver_103377_audio.mp4",
+            "video": "../videos/visulization_eval_s2g/chemistry_71162_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -374,57 +284,7 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/seth_100198_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/chemistry_70450.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_20_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_4_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/noah_1000041063_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_101152.mp4",
+            "video": "../videos/visulization_eval_s2g/noah_1000038524_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -434,7 +294,7 @@
         },
         {
             "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/oliver_103990_audio.mp4",
+            "video": "../videos/visualization_train_angie/noah_1000037210_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -443,8 +303,8 @@
             ]
         },
         {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/oliver_103908_audio.mp4",
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/seth_99741_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -453,18 +313,8 @@
             ]
         },
         {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_102423.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_21_0_0.mp4",
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/noah_1000038524_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -474,7 +324,7 @@
         },
         {
             "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/seth_6177.mp4",
+            "video": "../videos/new_sample_output_videos2/noah_1000042573.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -484,57 +334,7 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visualization_train_s2g/oliver_102431_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_22_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_25_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/chemistry_67733_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/oliver_102713_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/oliver_103951.mp4",
+            "video": "../videos/visualization_train_s2g/seth_98553_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -553,48 +353,8 @@
             ]
         },
         {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/chemistry_71162.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/oliver_101792_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/oliver_103844_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visualization_train_s2g/noah_1000036074_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
             "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/chemistry_67733.mp4",
+            "video": "../videos/new_sample_output_videos2/seth_6956.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -604,27 +364,7 @@
         },
         {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_23_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/noah_1000036229.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/seth_6956_audio.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_28_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -634,17 +374,7 @@
         },
         {
             "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/chemistry_70450_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/oliver_101152_audio.mp4",
+            "video": "../videos/visualization_train_angie/oliver_103369_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -654,7 +384,47 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/oliver_103951_audio.mp4",
+            "video": "../videos/visualization_train_s2g/noah_1000041325_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_8_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_30_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/seth_99743.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/oliver_103908_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -674,7 +444,7 @@
         },
         {
             "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/seth_100027_audio.mp4",
+            "video": "../videos/visulization_eval_ours/seth_100198_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -683,18 +453,8 @@
             ]
         },
         {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/chemistry_71354_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/chemistry_70450.mp4",
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_27_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -704,7 +464,97 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/noah_1000038524.mp4",
+            "video": "../videos/visulization_eval_s2g/chemistry_71162.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/oliver_103377_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/oliver_103952.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/seth_6956.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/oliver_101152_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/chemistry_70651_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visulization_eval_ours/seth_100133_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visulization_eval_ours/oliver_103890_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/oliver_103975.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/seth_99800_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -714,7 +564,17 @@
         },
         {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_25_0_0.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_28_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/noah_1000039255_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -724,7 +584,17 @@
         },
         {
             "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_22_0_0.mp4",
+            "video": "../videos/mm-diffusion/ddpm_samples_21_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/noah_1000041148.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -743,68 +613,8 @@
             ]
         },
         {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/seth_98553_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/chemistry_71306_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
             "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/noah_1000037210.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visualization_train_s2g/noah_1000038663_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/noah_1000041063.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos2/oliver_103287.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_16_0_0.mp4",
+            "video": "../videos/new_sample_output_videos/chemistry_71364.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -814,7 +624,17 @@
         },
         {
             "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/oliver_103929_audio.mp4",
+            "video": "../videos/visualization_train_ours/seth_6164_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/oliver_101792_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -824,7 +644,17 @@
         },
         {
             "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/noah_1000037489_audio.mp4",
+            "video": "../videos/visulization_eval_angie/oliver_103952_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_23_0_0.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -834,7 +664,27 @@
         },
         {
             "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/oliver_103751_audio.mp4",
+            "video": "../videos/visulization_eval_ours/oliver_103863_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_17_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/chemistry_70651_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -844,7 +694,277 @@
         },
         {
             "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/oliver_103844_audio.mp4",
+            "video": "../videos/visualization_train_s2g/oliver_103377_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_14_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/seth_97353_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/oliver_103804.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/noah_1000041325.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/seth_100176_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/chemistry_71306.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/noah_1000038524.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visualization_train_angie/seth_97353_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/chemistry_71301_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/chemistry_69763_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visualization_train_angie/noah_1000036043_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_8_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos2/chemistry_70651.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/chemistry_71162_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/noah_1000039514_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visulization_eval_ours/chemistry_71354_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visualization_train_angie/seth_6177_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/seth_100098.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/seth_100198_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/noah_1000036229_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visulization_eval_s2g/noah_1000040432_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/chemistry_70450_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_4_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "angie",
+            "video": "../videos/visulization_eval_angie/noah_1000039255_audio.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "gt",
+            "video": "../videos/new_sample_output_videos/seth_100134.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "mm-diffusion",
+            "video": "../videos/mm-diffusion/ddpm_samples_19_0_0.mp4",
+            "captions": [
+                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
+                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
+                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
+            ]
+        },
+        {
+            "sample_id": "s2g",
+            "video": "../videos/visualization_train_s2g/chemistry_69784_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
@@ -863,126 +983,6 @@
             ]
         },
         {
-            "sample_id": "ours",
-            "video": "../videos/visualization_train_ours/seth_98553_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visualization_train_s2g/oliver_103369_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/oliver_103844.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_13_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "mm-diffusion",
-            "video": "../videos/mm-diffusion/ddpm_samples_12_0_0.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visualization_train_angie/chemistry_69872_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/chemistry_71364_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/seth_100133_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "s2g",
-            "video": "../videos/visulization_eval_s2g/chemistry_71301_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/seth_100027.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "ours",
-            "video": "../videos/visulization_eval_ours/seth_99800_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
-            "sample_id": "angie",
-            "video": "../videos/visulization_eval_angie/oliver_103996_audio.mp4",
-            "captions": [
-                "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
-                "1. Terrible, it is not synchronized at all\n                2. Poor, it is not synchronized\n                3. Fair, it is hard to judge\n                4. Good, it is synchronized but not perfect\n                5. Excellent, it is perfectly synchronized\n",
-                "1. Terrible, it is not good at all\n                2. Poor, it is not good\n                3. Fair, it is hard to judge\n                4. Good, it is good\n                5. Excellent, it is perfect\n"
-            ]
-        },
-        {
             "sample_id": "mm-diffusion",
             "video": "../videos/mm-diffusion/ddpm_samples_25_0_0.mp4",
             "captions": [
@@ -993,8 +993,8 @@
             ]
         },
         {
-            "sample_id": "gt",
-            "video": "../videos/new_sample_output_videos/seth_100134.mp4",
+            "sample_id": "ours",
+            "video": "../videos/visualization_train_ours/noah_1000037198_audio.mp4",
             "captions": [
                 "1. Terrible, can't recognized as human gestures\n                2. Poor, it is not real\n                3. Fair, hard to judge\n                4. Good, better, it looks real\n                5. Excellent, it is what a human would do\n",
                 "1. Terrible, it is not diverse at all\n                2. Poor, it is not diverse\n                3. Fair, it is hard to judge\n                4. Good, it various but a little bit limited\n                5. Excellent, it is what a human would do\n",
